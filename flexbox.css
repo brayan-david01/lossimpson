@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+.contenedor{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+}
+
+.caja1 {
+    width: 33%;
+    height: 200px;
+    background-color: pink;
+}
+.caja2 {
+    width: 33%;
+    height: 200px;
+    background-color: greenyellow;
+}
+.caja3 {
+    width: 33%;
+    height: 200px;
+    background-color: blue;
+}
+.contenedor2{
+    display: flex;
+    background-color: yellow;
+    flex-wrap: wrap;
+    
+
+}
+
